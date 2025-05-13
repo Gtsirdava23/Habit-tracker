@@ -1,0 +1,31 @@
+{
+"milestones": [
+{
+"days": 1,
+"title": "Day One",
+"description": "Lasted 1 day without a habit"
+},
+{
+"days": 7,
+"title": "Freedom Week",
+"description": "A whole week without a habit"
+},
+{
+"days": 30,
+"title": "Month of victories",
+"description": "30 days without a habit"
+},
+{
+"days": 365,
+"title": "A year without a habit",
+"description": "A whole year without a habit - you are incredible!"
+}
+],
+"special": [
+{
+"type": "decision",
+"title": "Made a decision",
+"description": "You started tracking this habit"
+}
+]
+}

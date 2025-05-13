@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Habit Tracker</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<div class="container">
+<header>
+<h1><i class="fas fa-infinity"></i> Habit Tracker</h1>
+<div id="motivation-quote">
+<p>"A journey of a thousand miles begins with a single step." — Lao Tzu</p>
+</div>
+</header>
+
+<main>
+<section class="habit-form">
+<div class="input-group">
+<input type="text" id="new-habit" placeholder="Enter a habit...">
+<select id="habit-category">
+<option value="custom">Custom Habit</option>
+<option value="alcohol">Alcohol</option>
+<option value="smoking">Smoking</option>
+<option value="gaming">Video Games</option>
+</select>
+<button id="add-habit-btn"><i class="fas fa-plus"></i> Add</button>
+</div>
+</section>
+
+<section class="habits-container" id="habits-list">
+<!-- Habit cards will be added here -->
+</section>
+
+<section class="achievements-section">
+<h2><i class="fas fa-trophy"></i> Your Achievements</h2>
+<div id="achievements-list"></div>
+</section>
+</main>
+
+<footer>
+<p>© 2025 Habit Tracker | Designed with ❤️ for a better life</p>
+</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
